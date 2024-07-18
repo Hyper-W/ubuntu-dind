@@ -1,7 +1,7 @@
 services:
-  ubuntu-dind:
+  dind:
     build:
       context: .
-    container_name: ubuntu-dind
-    image: ubuntu-dind
+    container_name: dind
+    image: ghcr.io/hyper-w/dind:ubuntu
     privileged: true
