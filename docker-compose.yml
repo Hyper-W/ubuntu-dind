@@ -1,7 +1,0 @@
-services:
-  ubuntu-dind:
-    build:
-      context: .
-    container_name: ubuntu-dind
-    image: ubuntu-dind
-    privileged: true
